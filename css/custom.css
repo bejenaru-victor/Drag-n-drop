@@ -1,0 +1,221 @@
+body, *
+{
+  margin:0;
+  padding:0;
+}
+
+.uploadTime
+{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 30vh;
+  z-index: 100;
+  background-image: url('transparent-black.png');
+  background-size: cover;
+  display:none;
+}
+.form-container
+{
+	background-color: lightblue;
+	height: 500px;
+}
+
+.btn-info>img
+{
+  transform:rotate(90deg);
+}
+
+.box
+{
+	font-size: 1.25rem;
+    background-color: #c8dadf;
+    position: relative;
+    padding: 0;
+}
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.box.has-advanced-upload {
+  background-color: lightblue;
+  border: 2px dashed black;
+}
+.box.has-advanced-upload .box__dragndrop {
+  display: inline;
+}
+
+.is-dragover {
+  background-color: lightgrey !important;
+}
+
+.box.is-uploading .box__input {
+  visibility: none;
+}
+.box.is-uploading .box__uploading {
+  display: block;
+}
+
+.box__input>label
+{
+  height: 300px;
+  padding-top: 140px;
+}
+
+.col-md-2 > p
+{
+  font-size: 1.3em;
+}
+
+.loadingContainer
+{
+  padding:0px 3px 0px 3px;
+}
+
+.loadBar
+{
+  width: 0%;
+  height: 7px;
+  background-color: lightgreen;
+}
+
+#loadUpB
+{
+    width: 0%;
+    height: 7px;
+    background-color: #5485d3;
+}
+
+.emptyCont
+{
+    width:100%;
+    border:2px solid #000;
+}
+
+/* design formular */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 15px 80px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+.formular {
+    display: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.rand{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.stanga{
+    background-color:lavender;
+    border: 1px solid #000;
+    height: 100px;
+}
+.dreapta{
+    background-color:lavenderblush;
+    border: 1px solid #000;
+    height: 100px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85px;
+    height: auto;
+}
+.center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fixed-footer {
+    position: fixed;
+    width: 100%;
+    background-color: #dfdfdf;
+    bottom: 0;
+    left: 0;
+    padding: 7px 0;
+    border-top: 1px solid black;
+    z-index:1000;
+}
+
+/* DH */ 
+
+.page-title {
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.titlu {
+  font-size: 40px;
+  font-weight: 700;
+  color: #495057;
+}
+.greetings {
+  padding: 20px;
+  margin-left: 35px;
+  
+}
+.primire {
+  font-size: 20px; 
+  font-weight: 500; 
+  color: #495057;
+}
+.divider{
+  
+}
+.instructions {
+  padding: 20px;
+  margin: 20px;
+  border: solid 2px #dedede;
+}
+.pro-bar {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+.box__button {
+  margin-bottom: 20px;
+}
+.btn-info {
+  margin-bottom: 25px;
+}
+.formular-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 35px;
+  padding: 10px;
+  color: #495057;
+}
+.step-subtitle {
+  font-size: 13px !important;
+}
+
+
+/* End DH */ 
